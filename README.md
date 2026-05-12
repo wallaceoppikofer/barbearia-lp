@@ -1,35 +1,43 @@
-# Black Label Barbearia — Landing Page
+# Black Label - Barbearia LP
 
-Landing page profissional para barbearia, desenvolvida com HTML semântico, CSS responsivo e JavaScript vanilla.
+Landing page moderna e responsiva para uma barbearia fictícia, desenvolvida com HTML, CSS e JavaScript.
 
-## Estrutura do projeto
+## 🚀 Deploy
 
-```
-barbearia-lp/
-├── index.html        # HTML semântico (roles, aria, landmarks)
-├── css/
-│   └── style.css     # CSS responsivo com variáveis e mobile-first
-├── js/
-│   └── main.js       # Navbar scroll, menu mobile, animações, smooth scroll
-└── README.md
-```
+Acesse o projeto online:
 
-## Tecnologias
+https://wallaceoppikofer.github.io/barbearia-lp/
 
-- HTML5 semântico (header, nav, section, article, figure, address, footer, blockquote)
-- CSS3 com variáveis customizadas, Grid e Flexbox
-- JavaScript vanilla (ES6+), sem dependências
-- Google Fonts: Playfair Display + Outfit
-- Imagens: Unsplash (substituir pelas reais do cliente)
+## 📸 Preview
 
-## Boas práticas aplicadas
+![Preview do projeto](./assets/screenshots/barbearia-lp)
 
-- HTML semântico com landmarks (`role="banner"`, `role="contentinfo"`, etc.)
-- Atributos `aria-label`, `aria-expanded`, `aria-controls` para acessibilidade
-- `aria-hidden="true"` em elementos puramente decorativos
-- `rel="noopener noreferrer"` em todos os links externos
-- `loading="lazy"` nas imagens abaixo da dobra
-- `fetchpriority="high"` na imagem principal do hero
-- `width` e `height` em todas as imagens (evita layout shift)
-- Responsivo: desktop → tablet (900px) → mobile (600px)
-- Animações via IntersectionObserver com fallback
+## 🛠 Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub Pages
+
+## ✨ Funcionalidades
+
+- Layout responsivo
+- Menu mobile
+- Scroll suave
+- Navegação intuitiva
+- Estrutura semântica
+- Animações leves
+
+## 📚 Aprendizados
+
+Neste projeto pratiquei:
+- Estruturação semântica com HTML
+- Responsividade com CSS
+- Organização de pastas
+- Manipulação básica do DOM
+- Publicação com GitHub Pages
+
+## 👨‍💻 Autor
+
+Wallace Oppikofer

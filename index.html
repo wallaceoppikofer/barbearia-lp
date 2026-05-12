@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Black Label Barbearia — Corte, barba e estilo para o homem moderno em São Paulo." />
+  <meta name="keywords" content="barbearia, corte masculino, barba, São Paulo, barbearia premium" />
+  <meta name="author" content="Black Label Barbearia" />
+  <meta property="og:title" content="Black Label Barbearia" />
+  <meta property="og:description" content="Corte, barba e estilo para o homem moderno em São Paulo." />
+  <meta property="og:type" content="website" />
+  <title>Black Label Barbearia | São Paulo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="navbar__logo">
+      <span class="logo-icon" aria-hidden="true">✦</span>
+      <span class="logo-text">BLACK LABEL</span>
+    </div>
+    <nav class="navbar__links" id="navLinks" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Clientes</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn--outline" target="_blank" rel="noopener noreferrer" aria-label="Agendar horário pelo WhatsApp">Agendar</a>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true">
+      <svg class="hero__pattern" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+        <defs>
+          <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(212,175,55,0.07)" stroke-width="1"/>
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#grid)" />
+      </svg>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow" aria-hidden="true">✦ Desde 2015 em São Paulo</p>
+      <h1 class="hero__title" id="hero-title">
+        O corte perfeito
+        <span class="hero__title--gold">começa aqui.</span>
+      </h1>
+      <p class="hero__subtitle">
+        Barbearia premium para o homem que valoriza estilo,
+        precisão e uma experiência que vai além da cadeira.
+      </p>
+      <div class="hero__cta">
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn btn--gold" target="_blank" rel="noopener noreferrer">Agendar pelo WhatsApp</a>
+        <a href="#servicos" class="btn btn--ghost">Ver serviços</a>
+      </div>
+      <div class="hero__stats" role="list" aria-label="Números da barbearia">
+        <div class="stat" role="listitem">
+          <strong>+4.000</strong>
+          <span>Clientes atendidos</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat" role="listitem">
+          <strong>9 anos</strong>
+          <span>De experiência</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat" role="listitem">
+          <strong>5 ★</strong>
+          <span>Avaliação média</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__image-wrap">
+      <figure class="hero__image-card">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&q=80&auto=format&fit=crop" alt="Barbeiro profissional realizando corte em cliente" class="hero__image" width="600" height="520" loading="eager" fetchpriority="high" />
+        <figcaption class="hero__image-badge" aria-hidden="true">
+          <span>✦</span>
+          <p>Premium<br />Barbershop</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- FAIXA DOURADA -->
+  <div class="gold-bar" aria-hidden="true">
+    <span>✦ Corte &amp; Barba</span>
+    <span>✦ Barba Terapêutica</span>
+    <span>✦ Coloração Masculina</span>
+    <span>✦ Hidratação Capilar</span>
+    <span>✦ Hot Towel Shave</span>
+    <span>✦ Design de Sobrancelha</span>
+  </div>
+
+  <!-- SERVIÇOS -->
+  <section class="section services" id="servicos" aria-labelledby="servicos-title">
+    <div class="container">
+      <header class="section__header">
+        <p class="section__eyebrow" aria-hidden="true">O que oferecemos</p>
+        <h2 class="section__title" id="servicos-title">Nossos <span class="gold">Serviços</span></h2>
+        <p class="section__subtitle">Cada serviço pensado com atenção aos detalhes, do início ao fim.</p>
+      </header>
+      <ul class="services__grid" role="list">
+        <li class="service-card animate">
+          <span class="service-card__icon" aria-hidden="true">✂</span>
+          <h3>Corte Masculino</h3>
+          <p>Corte personalizado ao estilo e formato do rosto. Tesoura, máquina ou degradê — do clássico ao moderno.</p>
+          <strong class="service-card__price">A partir de R$ 50</strong>
+        </li>
+        <li class="service-card service-card--featured animate">
+          <span class="service-card__badge">Mais popular</span>
+          <span class="service-card__icon" aria-hidden="true">🪒</span>
+          <h3>Combo Corte + Barba</h3>
+          <p>Corte estilizado mais barba delineada com toalha quente e navalha. A experiência completa.</p>
+          <strong class="service-card__price">A partir de R$ 80</strong>
+        </li>
+        <li class="service-card animate">
+          <span class="service-card__icon" aria-hidden="true">🧴</span>
+          <h3>Barba Terapêutica</h3>
+          <p>Tratamento completo com esfoliação, hidratação e finalização com produtos de alta qualidade.</p>
+          <strong class="service-card__price">A partir de R$ 45</strong>
+        </li>
+        <li class="service-card animate">
+          <span class="service-card__icon" aria-hidden="true">💧</span>
+          <h3>Hidratação Capilar</h3>
+          <p>Tratamento nutritivo para cabelos ressecados ou danificados. Brilho e saúde no seu cabelo.</p>
+          <strong class="service-card__price">A partir de R$ 60</strong>
+        </li>
+        <li class="service-card animate">
+          <span class="service-card__icon" aria-hidden="true">🎨</span>
+          <h3>Coloração Masculina</h3>
+          <p>Cobertura de brancos ou transformação de visual com coloração especializada e discreta.</p>
+          <strong class="service-card__price">A partir de R$ 90</strong>
+        </li>
+        <li class="service-card animate">
+          <span class="service-card__icon" aria-hidden="true">👁</span>
+          <h3>Design de Sobrancelha</h3>
+          <p>Modelagem precisa para um rosto mais definido. Acabamento que faz diferença no visual final.</p>
+          <strong class="service-card__price">A partir de R$ 25</strong>
+        </li>
+      </ul>
+      <div class="services__cta">
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20disponibilidade." class="btn btn--gold" target="_blank" rel="noopener noreferrer">Consultar disponibilidade</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section about" id="sobre" aria-labelledby="sobre-title">
+    <div class="container about__grid">
+      <div class="about__image-wrap animate">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80&auto=format&fit=crop" alt="Interior moderno da Black Label Barbearia" class="about__image" width="600" height="560" loading="lazy" />
+        </figure>
+        <div class="about__years" aria-label="9 anos de tradição">
+          <strong>9+</strong>
+          <span>anos de tradição</span>
+        </div>
+      </div>
+      <div class="about__content animate">
+        <p class="section__eyebrow" aria-hidden="true">Nossa história</p>
+        <h2 class="section__title" id="sobre-title">Mais do que um corte.<br /><span class="gold">Uma experiência.</span></h2>
+        <p class="about__text">A <strong>Black Label Barbearia</strong> nasceu da paixão por arte, estilo e cuidado com o homem moderno. Desde 2015, atendemos clientes que buscam não apenas um serviço, mas um momento de qualidade — onde cada detalhe importa.</p>
+        <p class="about__text">Nossa equipe é formada por profissionais especializados e atualizados com as últimas tendências do mercado. Ambiente climatizado, música cuidadosamente selecionada e atendimento personalizado do início ao fim.</p>
+        <ul class="about__features" aria-label="Diferenciais da barbearia">
+          <li class="feature"><span class="feature__icon" aria-hidden="true">✦</span> Profissionais certificados</li>
+          <li class="feature"><span class="feature__icon" aria-hidden="true">✦</span> Produtos premium importados</li>
+          <li class="feature"><span class="feature__icon" aria-hidden="true">✦</span> Ambiente exclusivo e climatizado</li>
+          <li class="feature"><span class="feature__icon" aria-hidden="true">✦</span> Agendamento fácil pelo WhatsApp</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="section testimonials" id="depoimentos" aria-labelledby="depoimentos-title">
+    <div class="container">
+      <header class="section__header">
+        <p class="section__eyebrow" aria-hidden="true">O que dizem nossos clientes</p>
+        <h2 class="section__title" id="depoimentos-title">Avaliações <span class="gold">reais</span></h2>
+      </header>
+      <ul class="testimonials__grid" role="list">
+        <li class="testimonial-card animate">
+          <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+          <blockquote>
+            <p>"Melhor barbearia que já fui. Ambiente incrível, profissional muito atencioso e o resultado ficou perfeito. Não troco por nada!"</p>
+          </blockquote>
+          <footer class="testimonial-card__author">
+            <div class="author-avatar" aria-hidden="true">R</div>
+            <div><cite><strong>Rafael M.</strong></cite><span>Cliente há 3 anos</span></div>
+          </footer>
+        </li>
+        <li class="testimonial-card testimonial-card--featured animate">
+          <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+          <blockquote>
+            <p>"Fui pela primeira vez indicado por um amigo e não saí mais. O combo corte mais barba é simplesmente incrível. Vale cada centavo."</p>
+          </blockquote>
+          <footer class="testimonial-card__author">
+            <div class="author-avatar" aria-hidden="true">L</div>
+            <div><cite><strong>Lucas S.</strong></cite><span>Cliente há 2 anos</span></div>
+          </footer>
+        </li>
+        <li class="testimonial-card animate">
+          <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+          <blockquote>
+            <p>"Ambiente muito agradável, atendimento top e o corte ficou exatamente como eu queria. Recomendo de olhos fechados!"</p>
+          </blockquote>
+          <footer class="testimonial-card__author">
+            <div class="author-avatar" aria-hidden="true">F</div>
+            <div><cite><strong>Felipe A.</strong></cite><span>Cliente há 1 ano</span></div>
+          </footer>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner" aria-labelledby="cta-title">
+    <div class="cta-banner__content">
+      <h2 id="cta-title">Pronto para um novo visual?</h2>
+      <p>Agende agora pelo WhatsApp e garanta o seu horário.</p>
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Quero%20agendar%20na%20Black%20Label." class="btn btn--gold" target="_blank" rel="noopener noreferrer">📱 Agendar pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section contact" id="contato" aria-labelledby="contato-title">
+    <div class="container contact__grid">
+      <div class="contact__info animate">
+        <p class="section__eyebrow" aria-hidden="true">Fale conosco</p>
+        <h2 class="section__title" id="contato-title">Onde nos <span class="gold">encontrar</span></h2>
+        <address class="contact__address">
+          <div class="contact__item">
+            <span class="contact__icon" aria-hidden="true">📍</span>
+            <div>
+              <strong>Endereço</strong>
+              <p>Av. Paulista, 1000 — Bela Vista, São Paulo / SP</p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <span class="contact__icon" aria-hidden="true">🕐</span>
+            <div>
+              <strong>Horário de atendimento</strong>
+              <p>Segunda a Sábado: 09h às 20h<br />Domingo: 09h às 14h</p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <span class="contact__icon" aria-hidden="true">📱</span>
+            <div>
+              <strong>WhatsApp</strong>
+              <p><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">(11) 99999-9999</a></p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <span class="contact__icon" aria-hidden="true">📸</span>
+            <div>
+              <strong>Instagram</strong>
+              <p><a href="https://instagram.com/blacklabelbarbearia" target="_blank" rel="noopener noreferrer">@blacklabelbarbearia</a></p>
+            </div>
+          </div>
+        </address>
+      </div>
+      <div class="contact__map animate">
+        <div class="map-placeholder" role="img" aria-label="Localização: Av. Paulista, 1000, Bela Vista, São Paulo">
+          <span aria-hidden="true">🗺</span>
+          <p>Av. Paulista, 1000<br />Bela Vista — SP</p>
+          <a href="https://maps.google.com/?q=Av.+Paulista+1000+S%C3%A3o+Paulo" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Ver no Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__top container">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="logo-icon" aria-hidden="true">✦</span>
+          <span class="logo-text">BLACK LABEL</span>
+        </div>
+        <p>O estilo que você merece, na cadeira que você nunca vai esquecer.</p>
+      </div>
+      <nav class="footer__links" aria-label="Links do rodapé">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Clientes</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://wa.me/5511999999999" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>
+        <a href="https://instagram.com/blacklabelbarbearia" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> Black Label Barbearia. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Falar com a barbearia pelo WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="28" height="28" aria-hidden="true" focusable="false">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

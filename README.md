@@ -10,7 +10,7 @@ https://wallaceoppikofer.github.io/barbearia-lp/
 
 ## 📸 Preview
 
-![Preview do projeto](./assets/screenshots/barbearia-lp)
+![Preview do projeto](./assets/screenshots/barbearia-lp.png)
 
 ## 🛠 Tecnologias utilizadas
 

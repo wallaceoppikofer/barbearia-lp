@@ -22,21 +22,6 @@ barbearia-lp/
 - Google Fonts: Playfair Display + Outfit
 - Imagens: Unsplash (substituir pelas reais do cliente)
 
-## Como usar no GitHub Pages
-
-1. Suba a pasta para um repositório público no GitHub
-2. Vá em **Settings → Pages**
-3. Em "Source", selecione a branch `main` e a pasta `/ (root)`
-4. Clique em **Save** — o link ficará disponível em alguns minutos
-
-## Personalização
-
-Antes de entregar ao cliente, altere:
-
-- `index.html` — Nome da barbearia, endereço, telefone, links do WhatsApp e Instagram
-- `css/style.css` — Cores nas variáveis CSS (`:root`) se o cliente tiver identidade própria
-- Imagens do Unsplash → substituir pelas fotos reais do estabelecimento
-
 ## Boas práticas aplicadas
 
 - HTML semântico com landmarks (`role="banner"`, `role="contentinfo"`, etc.)
